@@ -38,7 +38,7 @@ Task manager application built using **NODE JS** and **MongoDB**. It follows a *
 1. **Clone the Repository**
    ```bash
    git clone <repository-url>
-   cd task-management
+   cd niyo-task-management-api
    ```
 
 2. **Install Dependencies**
