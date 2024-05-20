@@ -33,3 +33,31 @@ Task manager application built using **NODE JS** and **MongoDB**. It follows a *
 | POST    | /users/logout                      | Private | Logout an account                        |
 | POST    | /users/logoutall                   | Private | Logout all accounts                      |
 
+#### Running the Application
+
+1. **Clone the Repository**
+   ```bash
+   git clone <repository-url>
+   cd task-management
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Set Up Environment Variables**
+   Create a `.env` file in the root directory.
+   ```env
+   PORT=6000
+   DB_URL=mongodb://127.0.0.1:27017/db_name
+   JWT_SECRET=your_jwt_secret
+   ```
+
+4. **Run the Application**
+   ```bash
+   npm run dev
+   ```
+
+5. **Access the Application**
+   - The API will be accessible at `http://localhost:6000`.
